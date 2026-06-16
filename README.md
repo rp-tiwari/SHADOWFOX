@@ -1,15 +1,15 @@
- House Price Prediction using Linear Regression
+# House Price Prediction using Linear Regression
 
- Overview
+## Overview
 This project aims to predict house prices using the Boston Housing Dataset. A Linear Regression model is trained on various housing features to estimate the median value of homes.
 
- Objective
+## Objective
 To build a machine learning model that can accurately predict house prices based on housing characteristics.
 
- Dataset
+## Dataset
 The dataset used is the Boston Housing Dataset containing 506 records and 14 attributes.
 
- Features
+## Features
 - CRIM – Per capita crime rate by town
 - ZN – Proportion of residential land zoned for lots
 - INDUS – Proportion of non-retail business acres per town
@@ -24,10 +24,10 @@ The dataset used is the Boston Housing Dataset containing 506 records and 14 att
 - B – Proportion of Black population
 - LSTAT – Percentage of lower status population
 
- Target Variable
+## Target Variable
 - MEDV – Median value of owner-occupied homes (in $1000s)
 
- Technologies Used
+## Technologies Used
 - Python
 - Google Colab
 - Pandas
@@ -35,35 +35,35 @@ The dataset used is the Boston Housing Dataset containing 506 records and 14 att
 - Scikit-Learn
 - Matplotlib
 
- Methodology
+## Methodology
 
- 1. Data Loading
+## 1. Data Loading
 The dataset is loaded using Pandas.
 
- 2. Data Preprocessing
+## 2. Data Preprocessing
 The target variable (MEDV) is separated from the input features.
 
- 3. Train-Test Split
+## 3. Train-Test Split
 The dataset is split into:
 - 80% Training Data
 - 20% Testing Data
 
- 4. Model Training
+## 4. Model Training
 A Linear Regression model is trained using the training dataset.
 
- 5. Prediction
+## 5. Prediction
 The trained model predicts house prices on the testing dataset.
 
- 6. Evaluation
+## 6. Evaluation
 Model performance is evaluated using:
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - R² Score
 
- Results
+## Results
 The Linear Regression model successfully predicts house prices and provides evaluation metrics to measure prediction accuracy.
 
- Project Structure
+## Project Structure
 
 House-Price-Prediction/
 │
@@ -71,7 +71,7 @@ House-Price-Prediction/
 ├── house_price_prediction.ipynb
 └── README.md
 
- How to Run
+## How to Run
 
 1. Open Google Colab.
 2. Upload the notebook file.
@@ -79,7 +79,7 @@ House-Price-Prediction/
 4. Run all cells.
 5. View predictions and evaluation metrics.
 
- Future Improvements
+## Future Improvements
 
 - Implement Random Forest Regressor
 - Implement XGBoost Regressor
@@ -87,10 +87,10 @@ House-Price-Prediction/
 - Feature engineering
 - Model comparison
 
- Author
+## Author
 
 Ram Prasad Tiwari
 
- License
+## License
 
 This project is developed for educational and internship purposes.
